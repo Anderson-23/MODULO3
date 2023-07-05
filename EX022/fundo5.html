@@ -32,7 +32,7 @@
          main{
             display: flex;
             flex-direction: column;
-            width:70vw;
+            width:80vw;
             height: max-content;
             background-color: aqua;
             border: 2px solid black;
@@ -43,11 +43,13 @@
          h1{
 
             margin: 25px;
-            font-size: cal(14px + (20px - 100vw));
+            font-size: clamp(0.5rem,1rem + 2vw, 2rem);
          }
          p{
             margin: 25px;
-            text-indent: 5px;
+            text-indent: 20px;
+            text-size-adjust: ;
+           
          }
     </style>
 </head>
