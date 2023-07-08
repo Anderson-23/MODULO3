@@ -16,8 +16,19 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left center;
+ 
     
+}
+@media screen and (max-width: 550px) { 
+    body{
+
+        background-image: url(../imagens/wallpaper005.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+        
+    } 
 }
 
 header{
