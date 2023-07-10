@@ -25,6 +25,7 @@ header{
    
 }
 header h1{
+
     font-weight: 900;
     font-family: var(--fonte2);
     font-variant: small-caps;
@@ -66,6 +67,23 @@ main .para2 div,.para4 div{
     background-color: #000000cc;
     color: white;
 }
+main .para1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+main .para1 div,.para3 div,.para5 div{
+   
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    background:  black url(../imagens/mascote.png) center right no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
 main .para2, .para4 {
     
     background-image: url(../imagens/wallpaper002.jpg);
@@ -73,6 +91,7 @@ main .para2, .para4 {
     background-attachment: fixed;
     background-position: right center;
     box-shadow: inset 12px 12px 25px black;
+
 }
 
 footer{
