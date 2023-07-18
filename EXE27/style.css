@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+table{
+
+    border-collapse: collapse;
+}
+
+td,th,caption{
+
+    padding: 5px;
+    border: 2px solid black;
+}
+thead{
+
+background-color:lightgray;
+position: sticky;
+top: -1px;
+}
+
+tfoot{
+
+    background-color: lightgray;
+}
+
+.mulher{
+    background-color: aliceblue;
+}
+
+.homem{
+    background-color: aliceblue;
+}
+
+tr:nth-child(2n){
+
+background-color: lightcoral;
+
+}
+.numero{
+
+    text-align: right;
+}
