@@ -6,3 +6,45 @@
 
 }
 
+table{
+    border-collapse: collapse;
+    border: 8px solid black;
+}
+tr.primeira{
+
+    background-color: yellow;
+}
+tr.segunda{
+
+    background-color: red;
+}
+tr.terceira{
+
+    background-color: blue;
+}
+table td {
+
+    border: 2px solid black;
+    width: 100px;
+    height:100px;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+tr.segunda .td2{
+
+    background-image: linear-gradient(to top,blue,red,yellow);
+    background-size: 600% 600%;
+
+    &:hover{
+        animation: example 2s alternate infinite;
+
+    }
+
+}
+
+
+@keyframes example{
+0%{background-position:0% 0%}
+100%{background-position:100% 100%}
+}

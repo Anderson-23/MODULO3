@@ -1,0 +1,35 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td,th{
+
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead,tfoot{
+
+    background-color: cadetblue;
+    color: white;
+}
+.numero{
+
+    text-align: right;
+    font-size: medium;
+}
+tfoot tr td{
+
+    text-align: center;
+    font-size: larger;
+}
