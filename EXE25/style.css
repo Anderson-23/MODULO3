@@ -10,6 +10,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 10px;
+background-image: linear-gradient(to top,lightgreen,green,rgb(0, 78, 0));
+background-size: 1000% 1000%;
+animation: passagem 2s alternate infinite;
 
 }
 h1{
@@ -23,6 +26,40 @@ table{
     margin: 15px;
     border-collapse: collapse;
     width: 300px;
+
+}
+
+caption{
+
+    background-image: linear-gradient(to right,lightgreen,green,rgb(0, 78, 0));
+    padding: 5PX;
+    font-weight: bolder;
+    background-size: 1000% 1000%;
+    animation: passagem 2s alternate infinite;
+
+}
+
+@keyframes passagem {
+    0%{background-position: 0% 0%;}
+    100%{background-position: 100% 100%;}
+}
+
+tbody tr:nth-child(2n){
+
+    background-color: lightgray;
+
+}
+tbody tr:nth-last-child(2n){
+
+    background-color: white;
+
+}
+thead tr th{
+    
+    position: sticky;
+    top: -1px;
+    background-color: cadetblue;
+
 }
 
 td,th{
@@ -30,6 +67,7 @@ td,th{
     border: 2px solid black;
     border-collapse: collapse;
     padding: 5px;
+    
 }
 
 thead,tfoot{
