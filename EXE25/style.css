@@ -4,9 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+}
+h1{
+
+    text-decoration: underline;
+
+
+}
 
 table{
-
+    margin: 15px;
     border-collapse: collapse;
     width: 300px;
 }
@@ -27,9 +41,4 @@ thead,tfoot{
 
     text-align: right;
     font-size: medium;
-}
-tfoot tr td{
-
-    text-align: center;
-    font-size: larger;
 }
