@@ -84,3 +84,12 @@ td{
     background-size: 100% 100%;
 }
 
+.td{
+
+    transition: transform 1s;
+}
+
+.td:hover{
+    transform: rotateY(1turn);
+
+}
